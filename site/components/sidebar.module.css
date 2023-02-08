@@ -1,0 +1,25 @@
+.container{
+    min-width: 15vw;
+    padding: 20px;
+    background-color: rgb(246, 246, 246);
+    padding-top: 0;
+    min-height: 85vh;
+}
+
+.container h4{
+    margin-top: 15px;
+}
+
+.list{
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.list li{
+    padding-top: 5px;
+}
+
+.list li:hover{
+    color: orange;
+    cursor: pointer;
+}

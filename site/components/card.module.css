@@ -1,0 +1,40 @@
+.cardContainer{
+    border-width: 2;
+    margin: 20px;
+    /* border-style: solid; */
+    display: flex;
+    width: 100%;
+    max-width: 60vw;
+}
+
+.cardContainer img{
+    width: 200px;
+    height: 250px;
+}
+
+.detailsContainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.buyContainer{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.buyContainer button{
+    background-color: orange;
+    padding: 10px 20px 10px 20px;
+    border-style: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.description{
+    margin-top: 10px;
+}
